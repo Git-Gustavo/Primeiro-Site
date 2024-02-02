@@ -1,0 +1,185 @@
+/* style.css */
+
+/* Reset de estilos */
+body, h1, h2, p {
+    font-family: 'Tilt Neon', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do body */
+body {
+    background-color: #ccdde0;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #adbdca;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo dos tópicos arredondados */
+.topicos {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.topico1 {
+    background-color: #a2b0bd;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(45% - 20px);
+}
+.topico1 h1 {
+    color: rgb(13, 21, 24); 
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.topico1 h2 {
+    color: rgb(13, 21, 24);
+    font-size: 50px;
+    padding: 50px;
+
+}
+.topico2 {
+    background-color: #a2b0bd;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(147, 193, 219, 0.1);
+    border-radius: 10px;
+    width: calc(45% - 20px);
+}
+.topico2 h1 {
+    color: rgb(13, 21, 24); 
+    font-size: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.topico2 h2 {
+    color: rgb(13, 21, 24);
+    font-size: 50px;
+    padding: 20px;
+
+}
+/* Estilo dos blocos */
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.bloco {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(30% - 20px);
+}
+
+/* Estilos específicos para cada bloco */
+.bloco1 {
+    background: linear-gradient(to bottom right, #212b57, #212b57); 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+.bloco1 img {
+    max-width: 100%;
+    border-radius: 10px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.bloco1 p {
+    font-size: 20px;
+    padding: 10px
+}
+.bloco2 {
+    background: linear-gradient(to bottom right, #212b57, #c97a1f); 
+    border-radius: 10px; 
+    padding: 10px; 
+}
+.bloco2 img {
+    max-width: 100%;
+    border-radius: 10px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.bloco2 p {
+    font-size: 20px;
+    padding: 10px
+}
+.bloco3 {
+    background: linear-gradient(to bottom right, #c97a1f, #e6ff03);
+    border-radius: 10px;
+    padding: 10px;
+}
+.bloco3 img {
+    max-width: 100%;
+    border-radius: 10px; 
+    display: block;
+    margin: 0 auto; 
+}
+.bloco3 p {
+    font-size: 20px;
+    padding: 10px
+}
+.bloco4 {
+    background: linear-gradient(120deg, #347ab4, #ffca1d); 
+    border-radius: 10px;
+    padding: 10px;
+}
+.bloco4 img {
+    max-width: 100%;
+    border-radius: 10px; 
+    display: block;
+    margin: 0 auto;
+}
+.bloco4 p {
+    font-size: 20px;
+    padding: 10px
+}
+.bloco5 {
+    background: linear-gradient(180deg, #f670d4, #6a1f6a); 
+    border-radius: 10px;
+    padding: 10px; 
+}
+.bloco5 img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto; 
+}
+.bloco5 p {
+    font-size: 20px;
+    padding: 10px
+}
+.bloco6 {
+    background: linear-gradient(140deg, #096199, #fe5e5e); 
+    border-radius: 10px;
+    padding: 10px; 
+}
+.bloco6 img {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block; 
+    margin: 0 auto; 
+}
+.bloco6 p {
+    font-size: 20px;
+    padding: 10px
+}
